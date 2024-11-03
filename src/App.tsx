@@ -10,14 +10,14 @@ function App() {
     {
       title: "E-Commerce-Sentinel",
       description: "A DevSecOps Project to setup Amazon clone on AWS using CICD, Security and GitOps",
-      image: "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?auto=format&fit=crop&q=80&w=1600",
+      image: "https://plus.unsplash.com/premium_photo-1681488350342-19084ba8e224?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["AWS", "Kubernetes", "Terraform", "CI/CD"],
       link: "https://github.com/devops-maestro17/e-Commerce-Sentinel"
     },
     {
       title: "MultiKubeDeploy",
       description: "Deploying Application to multiple Google Kubernetes Engine (GKE) clusters with ArgoCD Application Sets, Terraform and Helm",
-      image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&q=80&w=1600",
+      image: "https://images.unsplash.com/photo-1667372459534-848ec00d4da7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDR8fEt1YmVybmV0ZXMlMjB8ZW58MHx8fHwxNjgzODk0Nzk3fDA&ixlib=rb-4.0.3&q=80&w=1384",
       tags: ["GCP", "Kubernetes", "ArgoCD", "Helm"],
       link: "https://github.com/devops-maestro17/multiKubeDeploy"
     },
@@ -40,7 +40,7 @@ function App() {
       title: "GCP Associate Cloud Engineer",
       issuer: "Google Cloud Engineer",
       date: "October 2024",
-      credentialUrl: "#",
+      credentialUrl: "https://www.credly.com/badges/e8ffa372-7371-4d38-b321-6ab96a98e557/public_url",
       image: "https://media.licdn.com/dms/image/D4D12AQFBmtRiDXrsQQ/article-cover_image-shrink_720_1280/0/1685531235341?e=2147483647&v=beta&t=vMC3uSCmFxs7BXacHI2zUU7axBqWXQE8Hk9NAOIFHM4"
     }
   ];
@@ -82,7 +82,7 @@ function App() {
       {/* Projects Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTitle title="Featured Projects" />
+          <SectionTitle title="Personal Projects" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <ProjectCard key={index} {...project} />
